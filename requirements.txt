@@ -1,0 +1,6 @@
+Pillow
+DrissionPage
+pydub
+SpeechRecognition
+python-dotenv
+openai
