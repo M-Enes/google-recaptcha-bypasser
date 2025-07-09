@@ -39,9 +39,6 @@ You can edit the image-solving prompt and specify the LLM model or LLM request d
 ## Contributing
 Contributions are welcome! Please fork the repository and submit a pull request.
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ## Disclaimer
 This tool is for educational purposes only. Misuse of this tool can lead to legal consequences. Use responsibly.
 
