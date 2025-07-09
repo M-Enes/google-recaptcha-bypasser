@@ -15,9 +15,20 @@ To install the necessary dependencies, run:
 ```bash
 pip install -r requirements.txt
 ```
+Also, please install ffmpeg for photo processing. You can find installation instructions for ffmpeg [here](https://ffmpeg.org/download.html).
 
 ## Usage
-To use the bypasser, run the following command:
+Before use, ensure you have the necessary API keys for the LLM service you intend to use. You can set these by creating a `.env` file in the root directory of the project with the following content:
+```
+OPENAI_API_KEY=your_llm_api_key
+```
+
+You need to have a simple web server running to test the bypasser. You can use Python's built-in HTTP server for this purpose. Navigate to the captchahtml folder and run:
+```bash
+python -m http.server 8000
+```
+
+To use the bypasser on localhost, run the following command:
 ```bash
 python test.py
 ```
@@ -35,4 +46,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 This tool is for educational purposes only. Misuse of this tool can lead to legal consequences. Use responsibly.
 
 ## Contact
-For any inquiries, please contact [eneskaracap@gmail.com](mailto:eneskaracap@gmail.com).
+For any inquiries, please open an issue on the GitHub repository.
